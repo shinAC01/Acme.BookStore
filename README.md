@@ -1,4 +1,5 @@
 # Acme.BookStore
+<<<<<<< HEAD
 
 ## About this solution
 
@@ -70,3 +71,6 @@ You can see the following resources to learn more about your solution and the AB
 * [Web Application Development Tutorial](https://docs.abp.io/en/abp/latest/Tutorials/Part-1)
 * [Application Startup Template Structure](https://docs.abp.io/en/abp/latest/Startup-Templates/Application)
 * [LeptonX Lite MVC UI](https://docs.abp.io/en/abp/latest/Themes/LeptonXLite/AspNetCore)
+=======
+This is my first ABP project
+>>>>>>> fdceb9065a503b5859912323b6ba285153bddb03
