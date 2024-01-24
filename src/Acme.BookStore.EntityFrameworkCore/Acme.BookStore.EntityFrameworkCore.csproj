@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <Import Project="..\..\common.props" />
 
@@ -7,6 +7,11 @@
     <Nullable>enable</Nullable>
     <RootNamespace>Acme.BookStore</RootNamespace>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20240124071805_Created_Book_Entity.cs" />
+    <Compile Remove="Migrations\20240124071805_Created_Book_Entity.Designer.cs" />
+  </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Acme.BookStore.Domain\Acme.BookStore.Domain.csproj" />
